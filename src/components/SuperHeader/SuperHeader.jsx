@@ -26,9 +26,14 @@ const Wrapper = styled.div`
   font-size: 0.875rem;
   color: ${COLORS.gray[300]};
   background-color: ${COLORS.gray[900]};
+  display: flex;
+  padding: 12px 32px;
+  gap: 16px;
 `;
 
+
 const MarketingMessage = styled.span`
+    margin-right: auto;
   color: ${COLORS.white};
 `;
 

@@ -1,5 +1,9 @@
 # Sole&Ankle — Module 4 workshop
 
+## TODO:
+- [] Label Sale and Release
+- [] align correctly select filter with shoeCard (see shoCard size)
+
 In this workshop, our goal is to finish building an e-commerce store!
 
 The good news is, most of our work is done already. We just need to write some additional CSS to construct the layout; things are a bit messy right now!

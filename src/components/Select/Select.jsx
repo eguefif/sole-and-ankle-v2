@@ -32,11 +32,15 @@ const Select = ({ label, value, children, ...delegated }) => {
   );
 };
 
-const Wrapper = styled.label``;
+const Wrapper = styled.label`
+    display: flex;
+    align-items: baseline;
+`;
 
 const VisibleLabel = styled.span`
   color: ${COLORS.gray[700]};
   margin-right: 16px;
+
 `;
 
 const SelectWrapper = styled.div`

@@ -82,7 +82,7 @@ const Sticker = styled.div`
     font-size: ${14 / 16}rem;
     top: 12px;
     right: -4px;
-    z-index: 5;
+    z-index: 2;
     background-color: var(--color);
     border-radius: 2px;
     padding: 7px 9px 9px 11px;
@@ -96,8 +96,6 @@ const Link = styled.a`
 `;
 
 const Wrapper = styled.article`
-    flex: 1;
-    max-width: 344px;
     position: relative;
 `;
 

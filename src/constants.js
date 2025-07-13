@@ -17,14 +17,14 @@ export const WEIGHTS = {
   bold: 800,
 };
 
-const BREAKPOINT = {
-    mobilMax: 37.5;
-    tabletMax: 59.375;
-    laptopMax: 81.25;
+const BREAKPOINTS = {
+    mobilMax: 37.5,
+    tabletMax: 59.375,
+    laptopMax: 81.25,
 };
 
-const QUERIES = {
-    'laptopAndDown`: `${BREAPOINT.laptopMax}rem`,
-    'tableAndDown`: `${BREAPOINT.tableMax}rem`,
-    'mobileAndDown`: `${BREAPOINT.mobilMax}rem`,
+export const QUERIES = {
+    'laptopAndDown': `${BREAKPOINTS.laptopMax}rem`,
+    'tabletAndDown': `${BREAKPOINTS.tabletMax}rem`,
+    'mobilAndDown': `${BREAKPOINTS.mobilMax}rem`,
 };
